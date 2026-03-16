@@ -6,7 +6,7 @@ Chào mừng đến với Respository của **Muối Team**
 > ### 👨‍💼 Thành viên
 > ... (Chủ sỡ hữu)
 > 
-> hungdev123 (Host)
+> (hungdev123)[https://github.com/hungdev123] (Host)
 > 
 > ... (Coder)
 
