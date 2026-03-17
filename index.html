@@ -590,11 +590,7 @@
       <div class="cta">
         <h2>Gửi yêu cầu / brief</h2>
         <p>Điền Discord username để tụi mình liên hệ. Nickname là tùy chọn nếu bạn muốn hiển thị khác.</p>
-        <form 
-          id="contactForm"
-          class="contact-form">
-          action="https://formspree.io/f/xjgaanpk"
-          method="POST"
+        <form id="contactForm" class="contact-form" action="https://formspree.io/f/xjgaanpk" method="POST">
           <div class="form-grid">
             <label>
               Discord username
@@ -614,6 +610,7 @@
             <button class="btn btn-outline" type="reset">Xóa nội dung</button>
           </div>
         </form>
+        <p>Form này dùng Formspree để chúng mình nhận</p>
       </div>
     </section>
 
@@ -673,11 +670,7 @@
       node._hide = setTimeout(() => (node.style.opacity = '0'), 2200);
     };
 
-    document.getElementById('contactForm').addEventListener('submit', (e) => {
-      e.preventDefault();
-      toast('Đã nhận form. Tụi mình sẽ phản hồi sớm!', 'ok');
-      e.target.reset();
-    });
+    // Formspree handles submission.
   </script>
 </body>
 </html>
