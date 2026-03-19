@@ -15,3 +15,5 @@ Chào mừng đến với Respository của **Muối Team**
 
 ### 📦 Kế hoạch
 > - Build 1 website (Dùng Github)
+
+*Bạn chưa tham gia?* [Vào ngay!](https://discord.gg/tPyDZkRjFX)
