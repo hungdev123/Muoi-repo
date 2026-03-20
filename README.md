@@ -20,4 +20,3 @@ Chào mừng đến với Respository của **Muối Team**
 
 
 Nếu bạn muốn đóng góp cho cộng đồng? Bạn có thể trở thành Staff hoặc collab với chúng mình
-(Kiểm tra các hoạt động trong máy chủ)
