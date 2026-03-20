@@ -8,7 +8,7 @@ Chào mừng đến với Respository của **Muối Team**
 > 
 > [hungdev123](https://github.com/hungdev123) (Web Host)
 > 
-> [ConeUi](https://github.com/FeaturedPr0ject) (Coder)
+> [FeaturePr0ject](https://github.com/FeaturedPr0ject) (Coder)
 
 ### ✨ Updatelogs
 > Xem thêm tại kênh "cập-nhật-chính" trong **Đế quốc Muối**
