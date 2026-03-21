@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ERROR, Mã: 404 - Không Tồn Tại</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Baloo+2:wght@600;700&display=swap');
+
+    :root {
+      --bg: #f6f9ff;
+      --ink: #0b1b3a;
+      --muted: #4f6a9b;
+      --accent: #2f6bff;
+      --line: #d8e3ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Nunito", system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(180deg, #f7f9ff 0%, #eef3ff 100%);
+    }
+
+    .wrap {
+      width: min(560px, 90%);
+      text-align: center;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      background: #ffffff;
+    }
+
+    h1 {
+      font-family: "Baloo 2", "Nunito", sans-serif;
+      font-size: clamp(2.4rem, 5vw, 3.2rem);
+      margin: 0 0 8px 0;
+    }
+
+    p {
+      margin: 0 0 18px 0;
+      color: var(--muted);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>404</h1>
+    <p>Trang bạn tìm không tồn tại hoặc đã được chuyển đi.</p>
+    <a class="btn btn-primary" href="index.html">Quay lại trang chủ</a>
+  </div>
+</body>
+</html>
