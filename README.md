@@ -20,3 +20,6 @@ Chào mừng đến với Respository của **Muối Team**
 
 
 Nếu bạn muốn đóng góp cho cộng đồng, Bạn có thể trở thành Staff hoặc collab với chúng mình.
+
+> [!CAUTION]
+> Việc **COPY** repository của Muoi Team sẽ gây ra ảnh hưởng lớn. Nếu có biến cố gì chúng tôi không chịu trách nghiệm về bạn.
