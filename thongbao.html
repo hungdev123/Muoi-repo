@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muối Team - Thông Báo</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Baloo+2:wght@600;700&display=swap');
+
+    :root {
+      --bg: #f6f9ff;
+      --ink: #0b1b3a;
+      --muted: #4f6a9b;
+      --accent: #2f6bff;
+      --line: #d8e3ff;
+      --card: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Nunito", system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(180deg, #f7f9ff 0%, #eef3ff 100%);
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .brand-badge {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #6bb7ff);
+      display: grid;
+      place-items: center;
+      color: white;
+      font-weight: 800;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brand-badge svg {
+      width: 26px;
+      height: 26px;
+      display: block;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .nav-links a:hover { color: var(--ink); }
+
+    .section {
+      padding: 20px 0 60px;
+      border-top: 1px solid var(--line);
+    }
+
+    .section h1 {
+      font-family: "Baloo 2", "Nunito", sans-serif;
+      font-size: clamp(2rem, 4vw, 2.6rem);
+      margin: 0 0 8px 0;
+    }
+
+    .section p {
+      color: var(--muted);
+      margin: 0 0 18px 0;
+    }
+
+    .btn {
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px;
+      display: grid;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .tag {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #e6efff;
+      color: var(--accent);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+    }
+
+    .footer {
+      padding: 32px 0 60px;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--line);
+      margin-top: 20px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #ffffff;
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    @media (max-width: 900px) {
+      .nav { flex-direction: column; gap: 12px; align-items: flex-start; }
+      .nav-links { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand">
+        <div class="brand-badge" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img" aria-label="Muoi logo">
+            <path d="M10 42 L22 22 L32 42 L42 22 L54 42" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="22" cy="22" r="3" fill="white"/>
+            <circle cx="42" cy="22" r="3" fill="white"/>
+          </svg>
+        </div>
+        <div>
+          Muối Team
+          <div style="color: var(--muted); font-size: 0.85rem; font-weight: 500;">Một cộng đồng tuyệt vời</div>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="index.html#intro">Giới thiệu</a>
+        <a href="index.html#social">Social</a>
+        <a href="index.html#contact">Form gửi</a>
+        <a href="thongbao.html">Thông báo</a>
+      </div>
+    </nav>
+
+    <section class="section">
+      <h1>Thông báo</h1>
+      <p>Tổng hợp các cập nhật mới nhất của Muối Team.</p>
+      <div id="notices"></div>
+      <a class="btn" href="index.html">Về trang chủ</a>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="https://github.com/hungdev123/Muoi-repo" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://discord.gg/sKDejJRf2t" target="_blank" rel="noreferrer">Discord</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">Youtube</a>
+      </div>
+      Muối Team · 2026
+    </footer>
+  </div>
+
+  <script>
+    const container = document.getElementById('notices');
+
+    const renderNotice = (n) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <span class="tag">${n.type || 'Update'}</span>
+        <strong>${n.title || ''}</strong>
+        <div class="meta">Cập nhật: ${n.date || ''}</div>
+        <p>${n.body || ''}</p>
+      `;
+      container.appendChild(card);
+    };
+
+    fetch('notices.json')
+      .then((res) => res.json())
+      .then((data) => {
+        if (Array.isArray(data) && data.length) {
+          data.forEach(renderNotice);
+        } else {
+          container.innerHTML = '<div class="card"><strong>Chưa có thông báo.</strong></div>';
+        }
+      })
+      .catch(() => {
+        container.innerHTML = '<div class="card"><strong>Không tải được dữ liệu thông báo.</strong></div>';
+      });
+  </script>
+</body>
+</html>
