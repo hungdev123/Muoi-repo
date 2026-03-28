@@ -23,3 +23,5 @@ Nếu bạn muốn đóng góp cho cộng đồng, Bạn có thể trở thành 
 
 > [!CAUTION]
 > Việc **COPY** Repository của MuoiTeam sẽ gây ra ảnh hưởng lớn. Nếu có biến cố gì chúng tôi sẽ không chịu trách nhiệm.
+>
+> Đối với những người được collab, xin vui lòng không sửa hay tương tác file ``wrangler.jsonc``
