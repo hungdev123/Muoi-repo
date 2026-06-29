@@ -1,4 +1,4 @@
-# 🚀 Muoi-Repo [[NGỪNG HOẠT ĐỘNG]]
+# 🚀 Muoi-Repo [NGỪNG HOẠT ĐỘNG]
 > ## Repository thuộc về Muối Team
 
 Chào mừng đến với Respository của **Muối Team**
